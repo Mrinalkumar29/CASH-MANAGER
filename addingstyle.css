@@ -1,0 +1,120 @@
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+}
+
+:root{
+    
+    --yellow : #cc9966;
+    --blue: #0C169B    ;
+    
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    margin-top: 2rem;
+    background-color: #008b8b;
+}
+
+.creater{
+    font-size: xx-large;
+    color: white;
+    font-family: 'MonteCarlo', cursive;
+    font-weight: bolder;
+}
+.container{
+
+    width: 100%;
+    max-width: 500px;
+    min-height: 200px;
+    margin: auto;
+    padding: 2rem 1rem;
+    text-align: center;
+    background-color: var(--yellow);
+}
+h1, p{
+    color: white;
+}
+.label{
+    font-size: 1.3rem;
+    padding: 1.5rem 1rem 0.5rem;
+    color: var(--blue);
+
+}
+
+.caption{
+    font-size: 1.3rem;
+    padding: 1.5rem 1rem 0.5rem;
+    color: var(--blue);
+  
+
+}
+
+
+input{
+    width: 100%;
+    padding: 1rem;
+    height: 50px;
+    display: block;
+}
+
+button{
+    padding: 0.5rem 1rem;
+    display: block;
+    font-size: 1rem;
+    border: none;
+    margin: 1rem auto 0;
+    background-color:var(--blue);
+    color: var(--yellow);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.cash-given-section{
+    display:none;
+}
+
+.notes-section{
+    display:none;
+}
+
+.errorMsg{
+    padding-top: 1rem;
+    color:red;
+    font-size: larger;
+    font-weight: bold;
+}
+#output{
+    margin: 0.5rem 0;    
+}
+
+   #output table, th, td{
+    padding: 0.2rem;
+    color: var(--yellow);
+    background-color:var(--blue);
+    border: 2px solid var(--yellow) ;
+    border-collapse: collapse;
+}
+.no-of-notes{
+    background-color:white;
+    font-weight: bold;
+}
+
+table{
+    width: 100%;
+    table-layout: fixed;
+}
+
+th,td{
+    word-wrap: break-word;
+}
+
+.buttonNext{
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
